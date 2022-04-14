@@ -1,5 +1,5 @@
-import entity
 import pygame as pg
+from . import entity
 
 
 class Bullet(entity.Entity):

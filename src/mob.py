@@ -1,6 +1,6 @@
 import pygame as pg
-import entity
 import numpy as np
+from . import entity
 
 
 class Mob(entity.Entity):

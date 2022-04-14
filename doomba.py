@@ -1,7 +1,8 @@
 import argparse
 import pygame as pg
-import model as md
-import controller as control
+
+from src import model as md
+from src import controller as control
 
 
 COLOR_BACKGROUND = (42, 42, 42)

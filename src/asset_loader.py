@@ -1,5 +1,5 @@
-import pygame as pg
 import os
+import pygame as pg
 
 ASSET_DIR = 'assets'
 

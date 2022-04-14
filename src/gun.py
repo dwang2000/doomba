@@ -1,7 +1,7 @@
 from copy import copy
 from random import uniform
 import numpy as np
-import bullet
+from . import bullet
 
 
 class Gun:

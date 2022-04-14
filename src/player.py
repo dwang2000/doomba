@@ -1,5 +1,5 @@
-import mob
 import numpy as np
+from . import mob
 
 
 class Player(mob.Mob):

@@ -1,10 +1,10 @@
 import numpy as np
 import pygame as pg
-import asset_loader as ld
 from random import choice
-import player
-import enemy
-import gun
+from . import asset_loader as ld
+from . import player
+from . import enemy
+from . import gun
 
 
 class Model:

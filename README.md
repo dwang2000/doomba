@@ -25,6 +25,12 @@ Display game launch options:
 python doomba.py -h
 ```
 
+## TODO
+* Add item drop and pickup
+* Add UI showing current score, health, and time
+* Refactor enemy AI as Strategies
+* Add additional enemies
+
 ## Code Structure
 ```
 DoombaDungeon
@@ -34,17 +40,21 @@ DoombaDungeon
 |   |   croomba.png
 |   |   doomba.png
 |
-|   README.md
-|   asset_loader.py
-|   bullet.py
-|   controller.py
+|---src
+|   |   asset_loader.py
+|   |   bullet.py
+|   |   controller.py
+|   |   enemy.py
+|   |   entity.py
+|   |   gun.py
+|   |   interface.py
+|   |	interface.py
+|   |   item.py
+|   |   mob.py
+|   |   model.py
+|   |   player.py
+|
 |   doomba.py
-|   enemy.py
-|   entity.py
-|   gun.py
-|	interface.py
-|   item.py
-|   mob.py
-|   model.py
-|   player.py
+|   README.md
+
 ```

@@ -1,7 +1,7 @@
 import random
 import numpy as np
-import mob
-import gun
+from . import mob
+from . import gun
 
 
 class Enemy(mob.Mob):
