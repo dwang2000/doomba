@@ -7,8 +7,6 @@
 
 This project will use the argparse module to initialize settings, such as difficulty, before launching the game itself. If necessary, the json module will also be used to store game data. External modules that Doomba will use are Pygame, for graphics, sound, and user interface, and Numpy to handle calculations, such as entity movement and object collision.
 
-Procedural loot and level generation, sound, and user interface are not yet implemented.
-
 ## Installation and Running Instructions
 
 Dependencies:
@@ -30,6 +28,7 @@ python doomba.py -h
 * Add UI showing current score, health, and time
 * Refactor enemy AI as Strategies
 * Add additional enemies
+* Procedural level generation
 
 ## Code Structure
 ```
