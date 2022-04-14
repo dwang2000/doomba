@@ -5,7 +5,7 @@
 
 **Doomba Dungeon** is a game about a weaponized autonomous vacuum cleaner traversing a hostile environment, defeating enemies, and becoming increasingly powerful. Specifically, it is a top down shooter with randomly generated rooms filled with enemies and loot.
 
-This project will use the argparse module to initialize settings, such as difficulty, before launching the game itself. If necessary, the json module will also be used to store game data. External modules that Doomba will use are Pygame, for graphics, sound, and user interface, and Numpy to handle calculations, such as entity movement and object collision.
+This project will use the argparse module to initialize settings, such as difficulty, before launching the game itself. If necessary, the json module will also be used to store game data. External modules that Doomba will use are Pygame for graphics, sound, and user interface and Numpy to handle calculations such as entity movement and object collision.
 
 ## Installation and Running Instructions
 
